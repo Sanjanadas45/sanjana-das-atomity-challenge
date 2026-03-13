@@ -9,6 +9,6 @@ export const useCloudData = () => {
       if (!response.ok) throw new Error('Failed to fetch cluster data');
       return response.json();
     },
-    staleTime: 1000 * 60 * 5, // Cache for 5 minutes (Requirement #3)
+    staleTime: 1000 * 60 * 5, // 5 mins for cache (#3)
   });
 };
