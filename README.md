@@ -22,7 +22,7 @@ Performance & A11y: Integrated useReducedMotion to respect system accessibility 
 Product Thinking: Added an interactive "Drill-down" feature on cards to simulate real-world cost reconciliation workflows.
 
 ### Trade-offs & Decisions
-Public API: Utilized JSONPlaceholder to simulate a cloud backend, focusing effort on frontend craftsmanship and async state handling (loading/error/success).
+Public API: I utilized JSONPlaceholder to simulate a cloud backend, focusing effort on frontend craftsmanship and async state handling (loading/error/success).
 
 Component Structure: Built 100% custom components (no UI kits) to demonstrate deep knowledge of Tailwind and React composition.
 
