@@ -8,7 +8,7 @@ export const ClusterCard = ({ name, cost, index }: ClusterProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const shouldReduceMotion = useReducedMotion();
 
-  // Logic for the "Potential Savings" surprise element
+  // Potential Savings logic
   const potentialSavings = (cost * 0.18).toLocaleString(undefined, { maximumFractionDigits: 2 });
 
   return (
@@ -62,7 +62,6 @@ export const ClusterCard = ({ name, cost, index }: ClusterProps) => {
           </div>
         </div>
 
-        {/* The Expansion Slot */}
         <AnimatePresence>
           {isOpen && (
             <motion.div
