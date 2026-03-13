@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+:root {
+  --brand-bg: #050505;
+  --brand-primary: #2F5BFF;
+  --brand-accent: #00f2ff;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: white;
+}
