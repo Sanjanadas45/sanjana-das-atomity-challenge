@@ -17,15 +17,15 @@ Caching Strategy: Used TanStack Query with staleTime to ensure zero redundant AP
 
 Modern CSS: Implemented @container queries for component-level responsiveness and CSS Variables for a clean design token architecture.
 
-Performance & A11y: Integrated useReducedMotion to respect system accessibility settings and used Skeleton States for graceful loading.
+Performance: Integrated useReducedMotion to respect system accessibility settings and used Skeleton States for graceful loading.
 
 Product Thinking: Added an interactive "Drill-down" feature on cards to simulate real-world cost reconciliation workflows.
 
 ### Trade-offs & Decisions
 Public API: I utilized JSONPlaceholder to simulate a cloud backend, focusing effort on frontend craftsmanship and async state handling (loading/error/success).
 
-Component Structure: Built 100% custom components (no UI kits) to demonstrate deep knowledge of Tailwind and React composition.
+Component Structure: Built 100% custom components (no UI kits) to demonstrate the knowledge of Tailwind and React composition.
 
-### How to Run
+### To Run the Project
 1. npm install
 2. npm run dev
