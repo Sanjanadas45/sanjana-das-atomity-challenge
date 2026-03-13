@@ -4,7 +4,7 @@ export const useCloudData = () => {
   return useQuery({
     queryKey: ['cloud-clusters'],
     queryFn: async () => {
-      // Fetching from a public API as requested
+      // Fetching from a public API
       const response = await fetch('https://jsonplaceholder.typicode.com/users');
       if (!response.ok) throw new Error('Failed to fetch cluster data');
       return response.json();
