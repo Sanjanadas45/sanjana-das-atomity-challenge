@@ -36,8 +36,7 @@ export const OptimizationSection = () => {
               key={user.id} 
               name={user.company.name} 
               cost={Math.floor(Math.random() * 8000) + 1200} 
-              index={i} 
-            />
+              index={i} />
           ))}
         </div>
       )}
