@@ -4,11 +4,11 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { OptimizationSection } from './components/OptimizationSection'
 import './styles/tokens.css' 
 
-// 1. Initialize the Query Client for Caching (Requirement #3)
+// 1. Initialized the Query Client for Caching (#3)
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
-      refetchOnWindowFocus: false, // Prevents annoying re-fetches when switching tabs
+      refetchOnWindowFocus: false,
     },
   },
 })
@@ -18,9 +18,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     {/* 2. Wrap the app in the Provider */}
     <QueryClientProvider client={queryClient}>
       <main className="min-h-screen">
-        {/* You can add a simple Navbar or Hero here if you want, 
-            but the focus is the OptimizationSection 
-        */}
         <OptimizationSection />
       </main>
     </QueryClientProvider>
