@@ -15,7 +15,7 @@ const queryClient = new QueryClient({
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    {/* 2. Wrap the app in the Provider */}
+    {/* 2. Wrapping the app in the Provider */}
     <QueryClientProvider client={queryClient}>
       <main className="min-h-screen">
         <OptimizationSection />
